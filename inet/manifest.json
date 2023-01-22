@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Inet testing",
+  "description": "Inet percentage viewer",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "js": ["scripts/main.js"],
+      "matches": [
+        "https://www.inet.se/*"
+      ]
+    }
+  ]
+}
